@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Compras</title>
+</head>
+<body>
+
+    <h1>Calculadora de Compras</h1>
+
+    <label for="preco">Preço Do Produto (R$):</label>
+    <input type="number" id="preco" placeholder="Preço do produto" step="0.01">
+    <br>
+
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade" placeholder="Quantidade comprada" min="1">
+    <br><br>
+
+    <button onclick="calcularResumo()">Calcular Resumo</button>
+
+    <div id="resultado"></div>
+
+    <script src="script04.js"></script>
+
+</body>
+</html>
